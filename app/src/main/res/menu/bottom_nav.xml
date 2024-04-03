@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_navigation_prime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/prime_icon"
+        android:title="Số Nguyên Tố" />
+    <item
+        android:id="@+id/bottom_navigation_linear_equation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/linear_quation_icon"
+        android:title="PT Bậc 1" />
+    <item
+        android:id="@+id/bottom_navigation_food_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/food_manager_icon"
+        android:title="Món Ăn" />
+</menu>

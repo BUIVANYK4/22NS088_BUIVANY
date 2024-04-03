@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrimeFragment">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="KIỂM TRA SỐ NGUYÊN TỐ" />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:id="@+id/edt_prime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:background="@drawable/text_form"
+            android:hint="Nhập số cần kiểm tra!" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/txt_result"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="@drawable/result_form"
+            android:hint="Kết quả" />
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_clear"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_form"
+                android:text="XOÁ" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_check"
+                android:layout_width="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_form"
+                android:text="KIỂM TRA" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
